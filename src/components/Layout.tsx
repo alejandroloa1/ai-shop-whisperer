@@ -17,7 +17,7 @@ const Layout = ({ children }: LayoutProps) => {
         <main className="container mx-auto px-4 py-6">
           <div className="flex items-center lg:hidden mb-4">
             <MobileSidebar />
-            <h1 className="text-xl font-bold ml-3">RFMInsight</h1>
+            <h1 className="text-xl font-bold ml-3">UPSELLerate</h1>
           </div>
           {children}
         </main>

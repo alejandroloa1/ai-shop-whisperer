@@ -21,10 +21,13 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/customers" element={<Customers />} />
-          <Route path="/rfm-analysis" element={<RFMAnalysis />} />
-          <Route path="/ltv" element={<LTV />} />
+          <Route path="/segments" element={<Customers />} />
+          <Route path="/audiences" element={<NotFound />} />
+          <Route path="/campaigns" element={<NotFound />} />
+          <Route path="/insights" element={<NotFound />} />
           <Route path="/recommendations" element={<Recommendations />} />
+          <Route path="/ltv" element={<LTV />} />
+          <Route path="/rfm-analysis" element={<RFMAnalysis />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
